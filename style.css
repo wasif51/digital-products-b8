@@ -4,7 +4,7 @@
 }
 
 .menu-container{
-    background-color: rgb(26, 1, 1);
+    background-color: rgb(39, 38, 38);
     padding: 20px;
     color: white;
     list-style: none;
@@ -19,8 +19,6 @@
 
 .menues{
     display: flex;
- 
-   
 }
 
 .item{
@@ -48,7 +46,6 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
 .title{
@@ -64,7 +61,7 @@
 }
 
 .btn{
-    padding: 10px 15px;
+    padding: 10px 10px;
     background-color: red;
     color: white;
     border: none;
@@ -73,7 +70,7 @@
 }
 
 .btn:hover{
-    color: grey;
+    color: black;
 }
 
 .about-container{
@@ -87,4 +84,74 @@
 .about-title{
     text-align: center;
     padding-top: 20px;
+}
+
+.box{
+    width: 200px;
+    height: 280px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+.icon{
+    width: 70px;
+}
+
+.box-btn{
+    /* background-color: gray; */
+    margin: 10px;
+}
+
+.box-title{
+   padding: 10px;
+   /* margin: 10px; */
+}
+
+.box-description{
+    padding: 5px;
+}
+
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+ 
+}
+
+.background{
+    background-color: rgb(22, 20, 20);
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer-container{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    list-style: none;
+  
+}
+
+.para{
+    padding: 5px;
+    width: 150px;
+    padding-top: 5px;
+}
+
+.item1{
+    padding: 7px;
+}
+
+.header{
+    padding-bottom: 5px;
+}
+.rights{
+    color: white;
 }
