@@ -52,7 +52,7 @@
 }
 
 .title{
-    font-size: 55px;
+    font-size: 50px;
     font-weight: bold;
 }
 
@@ -76,3 +76,15 @@
     color: grey;
 }
 
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+
+.about-title{
+    text-align: center;
+    padding-top: 20px;
+}
