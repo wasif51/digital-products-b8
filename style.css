@@ -155,3 +155,10 @@
 .rights{
     color: white;
 }
+
+.last{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 5px;
+}
